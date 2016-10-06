@@ -35,13 +35,13 @@ namespace grid2way
 
         UInt16 address = 16376; //Port address of Lenovo T530 for PCI Parallel Port, check EEG Based BCI Experiments Manual for further info
 
-        int trial = 100;             // total number of trials
+        int trial = 100;        // total number of trials
         int keyLimit = 2;       // 2 sec wait after press
         int keyCounter = 0; 
         int showLimit = 2;      // 2 sec show selected response  - timer2
         int showCounter = 0;
         int keyEvent = 0;       // which direction
-        int position = 0;       // 4 veya -4 se 0 la
+        int position = 0;       // current position check
 
         public Form1()
         {
